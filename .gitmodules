@@ -1,0 +1,3 @@
+[submodule "monero"]
+	path = monero
+	url = ../lakran.git
