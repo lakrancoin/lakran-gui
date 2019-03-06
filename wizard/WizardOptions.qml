@@ -248,7 +248,7 @@ ColumnLayout {
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
-                    persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
+                    persistentSettings.nettype = testNet.checked ? NetworkType.MAINNET : NetworkType.MAINNET
                     stageNet.checked = false;
                     console.log("Network type set to ", persistentSettings.nettype == NetworkType.TESTNET ? "Testnet" : "Mainnet")
                 }
@@ -266,7 +266,7 @@ ColumnLayout {
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
-                    persistentSettings.nettype = stageNet.checked ? NetworkType.STAGENET : NetworkType.MAINNET
+                    persistentSettings.nettype = stageNet.checked ? NetworkType.MAINNET : NetworkType.MAINNET
                     testNet.checked = false;
                     console.log("Network type set to ", persistentSettings.nettype == NetworkType.STAGENET ? "Stagenet" : "Mainnet")
                 }
