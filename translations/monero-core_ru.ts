@@ -560,7 +560,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="87"/>
         <source>CPU threads</source>
-        <translation>Количество потоков CPU</translation>
+        <translation>Потоков</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="95"/>
@@ -580,12 +580,12 @@
     <message>
         <location filename="../pages/Mining.qml" line="129"/>
         <source>Manage miner</source>
-        <translation>Управление майнером</translation>
+        <translation>Управление</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="139"/>
         <source>Start mining</source>
-        <translation>Запустить майнинг</translation>
+        <translation>Запустить</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="145"/>

@@ -44,7 +44,7 @@ import "js/Windows.js" as Windows
 
 ApplicationWindow {
     id: appWindow
-    title: "Monero"
+    title: "Lakran"
 
     property var currentItem
     property bool whatIsEnable: false
