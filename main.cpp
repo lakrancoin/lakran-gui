@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
     app.setOrganizationName("lakran-project");
 
 #if defined(Q_OS_LINUX)
-    if (isDesktop) app.setWindowIcon(QIcon(":/images/appicon.ico"));
+    if (isDesktop) app.setWindowIcon(QIcon(":/images/appincon.ico"));
 #endif
 
     filter *eventFilter = new filter;
