@@ -175,7 +175,7 @@ ListView {
 
                     return _amount + " LAK";
                 }
-                color: isOut ? "white" : "#2eb358"
+                color: isOut ? "white" : "#3bacf0"
             }
 
             Rectangle {
